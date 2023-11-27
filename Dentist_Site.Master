@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Dentist_Site.master.cs" Inherits="AsgntEx.Dentist_Site" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="nav">
+            <nav>
+                <ul class="nav">
+                    <li><a href="HomePage.aspx">Home</a></li>
+                    <li><a href="FeesPage.aspx">Fees</a></li>
+                    <li><a href="OurServicesPage.aspx">Our Services</a></li>
+                    <li><a href="AboutUsPage.aspx">About us</a></li>
+                    <li><a href="Contact.aspx">Contact</a></li>
+                    <li><a href="FaqPage.aspx">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <footer>
+            <div class="Footer-Master">
+                TM Dental Clinic <span>&copy</span> 2022. All rights reserved.
+            </div>
+        </footer>
+
+        <div id="mastercontent">
+        </div>
+    </form>
+    <script src="js/script.js"></script>
+</body>
+</html>
