@@ -1,0 +1,789 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Nunito&display=swap');
+/* Setting up the Master Page */
+html{
+    width: 100%;
+}
+body{
+    background-color: #F9F9F9;
+    background-position: 0% 0%;
+    margin: 0;
+    width: 100%;
+}
+nav{
+    background-color: #000D54;
+    padding: 5px;
+    width: 99.3%;
+}
+ul.nav{
+text-align: center;
+border: #2D2A2A;
+}
+ul.nav > li {
+    display: inline-block;
+    padding: 5px 20px;
+    
+}
+ul.nav > li > a {
+    text-decoration-color:black;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: lato;
+    display: inline-block;
+    
+    
+}
+a.visited{
+    text-decoration-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #000D54;
+    padding: 15px;
+    font-size: 17px;
+    font-style: normal;
+    font-family: Lato;
+    text-align: center;
+    color: white;
+    width: 97.9%;
+
+}
+
+/* Setting up the HomePage*/
+.mainheader{
+background-image: url(../Images/Dental\ Header.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center; 
+width: 100%;
+height: 50vh;
+}
+.wrapper{
+text-align: center;
+border: 100px;
+padding: 30px;
+
+}
+.wrapper > h1{
+    width: 27%;
+    font-size: 36px;
+    color:#2D2A2A;
+    font-family: Nunito;
+    text-align: center;
+    border-bottom: 2px solid #FF5416;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.wrapper > p{
+    font-size:14px;
+    font-family: lato;
+    display: block;
+    word-spacing: 0px;
+    text-decoration: none solid rgb(0,0,0);
+    text-align: center;
+    word-break: break-all;
+}
+#btnFree{
+    background-color: #FF5416;
+    color:white;
+    border-color: none;
+    border-style: none;
+    font-family: Lato;
+    font-size: 13px;
+    border: none;
+    padding: 10px 10px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    transition: background 1s;
+}
+.wrapper-services{
+    display: flex;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    
+}
+.card{
+    background-color: #FFFFFF;
+    width: 24%;
+    margin: 1% 1%;
+    padding: 10px;
+    font-size: 20px;
+    border-style: solid 2px ;
+    font-family: Nunito;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.card > p{
+    font-family: Lato;
+    font-size: 14px;
+}
+.card > a{
+    background-color: #FFFFFF;
+    color:#333333;
+    font-weight: 600;
+    border-bottom: 2px solid#FF5416;
+    letter-spacing: 0.3px;
+    text-decoration: none solid rgb(51,51,51);
+    font-family: Lato;
+    vertical-align: middle;
+    font-size: 13px;
+    padding: 10px 10px;
+    width: 40px;
+    text-align: center;
+}
+.titlewrapper > h4{
+font-size: 36px;
+font-family: Nunito;
+text-align: center;
+color: #2D2A2A;
+border-bottom: solid 2px #FF5416;
+width: 27%;
+margin-left: auto;
+margin-right: auto;
+}
+.box-icon-wrapper1{
+font-size: 20px;
+font-family: Nunito;
+background-color: #FFFFFF;
+box-sizing: border-box;
+background-position: 0% 0%;
+text-align: center;
+box-shadow: 0.7s ease 0s;
+margin: 0 0 35px 0;
+padding: 30px 30px 30px 30px;
+height: 198px;
+width: 581px;
+}
+.box-icon-wrapper2{
+font-size: 20px;
+font-family: Nunito;
+background-color: #FFFFFF;
+box-sizing: border-box;
+background-position: 0% 0%;
+text-align: center;
+box-shadow: 0.7s ease 0s;
+margin: 0 0 35px 0;
+padding: 30px 30px 30px 30px;
+height: 198px;
+width: 581px;
+}
+.testi-wrapper > h4{
+    font-size: 36px;
+    font-family: Nunito;
+    text-align: center;
+    color: #2D2A2A;
+    border-bottom: solid 2px #FF5416;
+    width: 27%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-testimonials{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+.testimonial{
+position: relative;
+max-width: 900px;
+width: 100%;
+padding: 50px 0;
+background-color: #FFFFFF;
+overflow: hidden;
+
+}
+.testimonial .image{
+height: 170px;
+width: 170px;
+object-fit: cover;
+border-radius: 50%;
+display: inline-flex;
+}
+.testimonial .slide{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background-color: #FFFFFF;
+}
+.slide p{
+   padding: 0 100px;
+   text-align: center;
+   font-size: 14px;
+   row-gap: 30px;
+   font-family: Lato;
+}
+.slide  .quote-icon{
+    font-size: 28px;
+    color: #FF5416;
+}
+.slide .details{
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+.slide .details .cname{
+font-size: 12px;
+font-family: Nunito;
+}
+.slide .details .job{
+font-size: 12px;
+font-family: Nunito;
+}
+.nav-btn::after,
+.nav-btn::before{
+    color:#000D54;
+    font-size: 14px
+    
+}
+.contactcolumn{
+height: 466px;
+width: 611px;
+padding: 0 15px 0 15px;
+display: block;
+background-position: 0% 0%;
+color: #2D2A2A;
+}
+.google-api{
+    height:490.898px;
+    width: 611px;
+    padding: 0 15px 0 15px;
+    display: block;
+    background-position: 0% 0%;
+}
+.contactbox{
+    display:flex;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+}
+
+/* Setting up the Our Fees Page*/
+.page-title{
+    background-color:#FF5416;
+    width: 100%;
+    padding: 20px 0 20px 0;
+}
+.page-title > p{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: Lato;
+}
+.page-title > p > a{
+text-decoration: none;
+color: white;
+font-family: Lato;
+}
+.page-title > p > a.visited{
+text-decoration: none;
+color: white;
+font-family: Lato;
+}
+.entry-title{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 36px;
+    padding: 10px;
+    font-family: Nunito;
+}
+.promo-title{
+width: 100%;
+}
+.promo-title > h4{
+text-align: center;
+font-size: 36px;
+width: 65%;
+font-family: Nunito;
+border-bottom: solid 2px #FF5416;
+margin-left: auto;
+margin-right: auto;
+}
+.img-column{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#mySelect{
+    font-size: 18px;
+    width: 200px;
+}
+#mySelect1{
+    font-size: 18px;
+    width: 200px;
+}
+#mySelect2{
+    font-size: 18px;
+    width: 200px;
+}
+#mySelect3{
+    font-size: 18px;
+    width: 200px;
+}
+.treatment-container{
+    padding: 30px;
+    font-family: Nunito;
+    font-size: 20px;
+}
+.treatment1-container{
+    padding: 30px;
+    font-family: Nunito;
+    font-size: 20px;
+}
+.treatment2-container{
+    padding: 30px;
+    font-family: Nunito;
+    font-size: 20px;
+}
+.treatment3-container{
+    padding: 30px;
+    font-family: Nunito;
+    font-size: 20px;
+}
+.btTotalNextWrapper{
+    font-size: 20px;
+    padding: 20px;
+    font-family: Nunito;
+}
+
+/* Setting up the Our Services Page*/
+.page-title-ourservices{
+    background-color:#FF5416;
+    width: 100%;
+    padding: 20px 0 20px 0;
+}
+.page-title-ourservices > p{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: Lato;
+}
+.page-title-ourservices > p > a{
+text-decoration: none;
+color: white;
+font-family: Lato;
+}
+.page-title-ourservices > p > a.visited{
+text-decoration: none;
+color: white;
+font-family: Lato;
+}
+.entry-title-ourservices{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 36px;
+    padding: 10px;
+    font-family: Nunito;
+}
+.services1{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    
+}
+.servicetitle{
+    font-family: Nunito;
+    font-size: 14px;
+    text-align: center;
+    padding: 70px;
+}
+.servicetitle > h3{
+    font-size: 30px;
+    border-bottom: 2px solid #FF5416;
+    width: 37%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.servicetitle > p{
+    font-size: 15px;
+}
+.serviceimg{
+    width: 30%;
+    padding: 30px;
+    border-bottom: 30%;
+}
+.services2{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    
+}
+.servicetitle2{
+    font-family: Nunito;
+    font-size: 14px;
+    text-align: center;
+    padding: 70px;
+}
+.servicetitle2 > h3{
+    font-size: 30px;
+    border-bottom: 2px solid #FF5416;
+    width: 37%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.servicetitle2 > p{
+    font-size: 15px;
+}
+.serviceimg2{
+    width: 30%;
+    padding: 30px;
+    border-bottom: 30%;
+}
+.services3{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    
+}
+.servicetitle3{
+    font-family: Nunito;
+    font-size: 14px;
+    text-align: center;
+    padding: 70px;
+}
+.servicetitle3 > h3{
+    font-size: 30px;
+    border-bottom: 2px solid #FF5416;
+    width: 37%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.servicetitle3 > p{
+    font-size: 15px;
+}
+.services4{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    
+}
+.servicetitle4{
+    font-family: Nunito;
+    font-size: 14px;
+    text-align: center;
+    padding: 70px;
+}
+.servicetitle4 > h3{
+    font-size: 30px;
+    border-bottom: 2px solid #FF5416;
+    width: 37%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.servicetitle4 > p{
+    font-size: 15px;
+}
+.serviceimg4{
+    width: 30%;
+    padding: 30px;
+    border-bottom: 30%;
+}
+.serviceimg3{
+    width: 30%;
+    padding: 30px;
+    border-bottom: 30%;
+}
+/* Setting up the About Us Page*/
+.container-aboutus{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    
+}
+.about-us{
+position: relative;
+max-width: 900px;
+width: 100%;
+padding: 50px 0;
+background-color: #FFFFFF;
+overflow: hidden;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.slide1 .details{
+display:flex;
+flex-direction: column;
+align-items: center;
+font-size: 36px;
+font-family: Nunito;
+}
+.about-us .image{
+height: 350px;
+width: 350px;
+object-fit: cover;
+border-radius: 10%;
+display: inline-flex;
+padding: 15px;
+}
+.about-us .slide1{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background-color: #FFFFFF;
+}
+.slide1 > p{
+   padding: 0 100px;
+   text-align: center;
+   font-size: 14px;
+   font-family: Lato;
+}
+
+.details .sname{
+font-size: 24px;
+font-family: Nunito;
+}
+.details .surname{
+    font-size: 20px;
+    font-family: Nunito;
+    }
+.page-title-aboutus{
+    background-color:#FF5416;
+    width: 100%;
+    padding: 20px 0 20px 0;
+}
+.page-title-aboutus > p{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: Lato;
+}
+.page-title-aboutus > p > a{
+text-decoration: none;
+color: white;
+font-family: Lato;
+}
+.page-title-aboutus > p > a.visited{
+text-decoration: none;
+color: white;
+font-family: Lato;
+}
+.entry-title-aboutus{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 36px;
+    padding: 10px;
+    font-family: Nunito;
+}
+
+/* Setting up the Contact Us Page*/
+
+.page-title-contactus{
+    background-color:#FF5416;
+    width: 100%;
+    padding: 20px 0 20px 0;
+}
+.page-title-contactus > p{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: Lato;
+}
+.page-title-contactus > p > a{
+text-decoration: none;
+color: white;
+font-family: Lato;
+}
+.page-title-contactus > p > a.visited{
+text-decoration: none;
+color: white;
+font-family: Lato;
+}
+.entry-title-contactus{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 36px;
+    padding: 10px;
+    font-family: Nunito;
+}
+.column-contact{
+text-align: center;
+justify-content: center;
+display: flex;
+height: 582.594px;
+padding: 50px;
+}
+.contact-form > label{
+font-size: 20px;
+display: inline;
+text-align: left;
+font-family: Nunito;
+display: block;
+}
+.contact-form{
+    padding: 15px;
+}
+.api-google{
+    padding: 15px;
+}
+.name{
+    box-sizing: border-box;
+    vertical-align: middle;
+    width: 581px;
+    border: 2px solid #818181;
+    padding: 0 15px 0 15px;
+    height: 42px;
+}
+#TextBox1{
+    box-sizing: border-box;
+    vertical-align: middle;
+    width: 581px;
+    border: 2px solid #818181;
+    padding: 0 15px 0 15px;
+    height: 42px;
+}
+.email{
+    box-sizing: border-box;
+    vertical-align: middle;
+    width: 581px;
+    border: 2px solid #818181;
+    padding: 0 15px 0 15px;
+    height: 42px;
+}
+.subject{
+    box-sizing: border-box;
+    vertical-align: middle;
+    width: 581px;
+    border: 2px solid #818181;
+    padding: 0 15px 0 15px;
+    height: 42px;
+}
+.your-message{
+    box-sizing: border-box;
+    vertical-align: middle;
+    width: 581px;
+    border: 2px solid #818181;
+    padding: 0 15px 0 15px;
+    height: 100px;
+}
+.btnSubmit{
+background-color: #FF5416;
+color:white;
+border-color: none;
+border-style: none;
+font-family: Lato;
+font-size: 13px;
+border: none;
+padding: 10px 10px;
+width: 582px;
+text-align: center;
+text-decoration: none;
+transition: background 1s;
+}
+.contact-wrapper{
+    display: flex;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    align-items: center;
+}
+/* Setting up the FAQ Page*/
+.page-title-faq{
+    background-color:#FF5416;
+    width: 100%;
+    padding: 20px 0 20px 0;
+}
+.page-title-faq > p{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: Lato;
+}
+.page-title-faq > p > a{
+text-decoration: none;
+color: white;
+font-family: Lato;
+}
+.page-title-faq > p > a.visited{
+text-decoration: none;
+color: white;
+font-family: Lato;
+}
+.entry-title-faq{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 36px;
+    padding: 10px;
+    font-family: Nunito;
+}
+.sfaq{
+    min-height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+
+}
+.faq{
+max-width: 90%;
+margin-top: 2rem;
+padding-bottom: 1rem;
+border-bottom: 2px solid #000D54;
+cursor: pointer;
+}
+.question{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.question > h3{
+font-size: 36px;
+font-family: Nunito;
+margin-left: auto;
+margin-right: auto;
+}
+.answer{
+max-height: 0;
+overflow: hidden;
+transition: max-height 1.4s ease;
+
+}
+.answer > p{
+padding-top: 1rem;
+line-height: 1.6;
+font-size: 14px;
+font-family: Lato;
+}
+.faq.active .answer{
+max-height: 300px;
+animation: fade 1s ease-in-out;
+}
+svg{
+transition: transform .5s ease-in;
+}
+@keyframes fade{
+    from {
+        opacity: 0;
+        transform: translateY(-10px)
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
